@@ -16,4 +16,11 @@ class Queue:
     
     def size(self):
         return "Total elements : " + str(len(self.buffer))
+    
+q = Queue()
+q.enqueue(5)
+q.enqueue(9)
+q.enqueue(17)
+print(q.size())
+print(q.dequeue())
 
